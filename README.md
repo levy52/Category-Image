@@ -35,6 +35,18 @@ Once the plugin is activated, you can add images to categories in two ways:
 
 To display the category image on your website, you can use the `display_category_image` function in your theme or plugin.
 
+## Example
+
+```php
+<?php
+$category = get_category( $category_id );
+$image_url = get_term_meta( $category->term_id, 'category_image', true );
+if ( $image_url ) {
+    echo '<img src="' . esc_url( $image_url ) . '" alt="' . esc_attr( $category->name ) . '" />';
+}
+?>
+```
+
 ## Requirements
 
 - WordPress 4.0 or higher.
