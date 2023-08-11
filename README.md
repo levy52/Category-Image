@@ -1,4 +1,4 @@
-# Category Image Plugin
+# Image to category WP Plugin
 
 WordPress plugin that adds the ability to add photos to categories.
 

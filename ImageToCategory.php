@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin Name: Category Image
+ * Plugin Name: ImageToCategory
  * Description: Adds the ability to add photos to categories.
  * Version: 1.0
  * Author: Radosław Lewicki
