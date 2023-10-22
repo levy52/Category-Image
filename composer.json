@@ -1,0 +1,9 @@
+{
+    "name": "levy52/ImageToCategory",
+    "description": "WordPress plugin that adds the ability to add photos to categories.",
+    "type": "wordpress-plugin",
+    "require": {
+        "composer/installers": "~1.0"
+    }
+}
+
